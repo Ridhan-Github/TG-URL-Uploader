@@ -1,13 +1,11 @@
 class Translation(object):
-    START_TEXT = """Hello,
-This is a Telegram URL Upload Bot!
+    START_TEXT = """👋 Hᴇʟʟᴏ , {} ♡
 
-<b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
+Tʜɪꜱ ɪꜱ ᴘᴏᴡᴇʀꜰᴜʟ ᴜʀʟ ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ.
 
-/help for more details..
+Pʀᴇꜱꜱ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ...
 
-Support Group : @InFoTelGroup
-© @SpEcHlDe , @TGBotsZ & @CWProjects"""
+Pᴏᴡᴇʀᴇᴅ ʙʏ : [ᴅɪsɴᴇʏ ʙᴏᴛs](https://telegram.me/Disney_Bots)"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
@@ -31,28 +29,30 @@ URL | filename | username | password"""
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    CURENT_PLAN_DETAILS = """Current plan details
---------
-Telegram ID: <code>{}</code>
-Plan name: Free Cloned User
-Expires on: 31/12/2020"""
-    HELP_USER = """Hai am URL Uploader bot..
-    
-1. Send url (Link|New Name with Extension).
-2. Send Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File with Screenshots
-   Video  - Give File as video without Screenshots
-   DFile  - Give File without Screenshots
-   
-<b>👉 Create own Clone Bot :</b> 👉 <a href="https://youtu.be/QkAkSLBgoYw">Diploy</a>
+    CURENT_PLAN_DETAILS = """Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Pʟᴀɴ
 
---------
-Send /me to know current plan details
+Tᴇʟᴇɢʀᴀᴍ ɪᴅ : <code>{}</code>
 
-Support Group : @InFoTelGroup
-© @TGBotsZ"""
+Pʟᴀɴ ɴᴀᴍᴇ : ғʀᴇᴇ
+
+Exᴘɪʀᴇs ᴏɴ : ʟɪғᴇ ᴛɪᴍᴇ"""
+    HELP_USER = """**ʟɪɴᴋ ᴛᴏ ᴍᴇᴅɪᴀ ᴏʀ ғɪʟᴇ**
+
+➠ sᴇɴᴅ ᴀ ʟɪɴᴋ ғᴏʀ ᴜᴘʟᴏᴀᴅ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ ᴏʀ ᴍᴇᴅɪᴀ.
+
+**sᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ**
+
+➠ sᴇɴᴅ ᴀ ᴘʜᴏᴛᴏ ᴛᴏ ᴍᴀᴋᴇ ɪᴛ ᴀs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ.
+
+**ᴅᴇʟᴇᴛɪɴɢ ᴛʜᴜᴍʙɴᴀɪʟ**
+
+➠ sᴇɴᴅ /delthumbnail ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴛʜᴜᴍʙɴᴀɪʟ.
+
+**sʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ**
+
+➠ sᴇɴᴅ /showthumbnail ᴛᴏ ᴠɪᴇᴡ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ.
+
+Pᴏᴡᴇʀᴇᴅ ʙʏ : [ᴅɪsɴᴇʏ ʙᴏᴛs](https://telegram.me/Disney_Bots)"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
